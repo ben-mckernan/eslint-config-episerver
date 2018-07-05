@@ -1,0 +1,17 @@
+{
+  "name": "eslint-config-episerver",
+  "version": "1.0.0",
+  "description": "ESLint shareable config for the Episerver JavaScript style guide",
+  "main": "index.js",
+  "repository": "github:ben-mckernan/eslint-config-episerver",
+  "author": "Ben McKernan <ben.mckernan@episerver.com>",
+  "license": "MIT",
+  "keywords": [
+    "episerver",
+    "eslint",
+    "eslint-config"
+  ],
+  "peerDependencies": {
+    "eslint": ">=4.19.0"
+  }
+}
