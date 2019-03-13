@@ -19,6 +19,7 @@ module.exports = {
     'no-use-before-define': 'error',
     'no-useless-escape': 'off',
     'no-with': 'error',
+    'object-curly-spacing': ['error', 'always'],
     'quote-props': ['error', 'as-needed', { keywords: true }],
     'quotes': ['error', 'double', { avoidEscape: true }],
     'semi': 'error',
