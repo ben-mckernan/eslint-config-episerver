@@ -9,6 +9,7 @@ module.exports = {
     'eol-last': 'error',
     'eqeqeq': ['error', 'smart'],
     'indent': ['error', 4, { SwitchCase: 1 }],
+    'jsx-quotes': ['error', 'prefer-double'],
     'key-spacing': 'error',
     'keyword-spacing': 'error',
     'no-console': ['error', { allow: ['error'] }],
