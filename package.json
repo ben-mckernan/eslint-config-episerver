@@ -10,8 +10,5 @@
     "episerver",
     "eslint",
     "eslint-config"
-  ],
-  "peerDependencies": {
-    "eslint": ">=4.19.0"
-  }
+  ]
 }
