@@ -1,4 +1,4 @@
-# eslint-config-episerver
+# @episerver/eslint-config
 
 > ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for the Episerver JavaScript style guide
 
@@ -7,22 +7,22 @@
 ### yarn
 
 ```
-yarn add --dev eslint-config-episerver
+yarn add --dev @episerver/eslint-config
 ```
 
 ### npm
 
 ```
-npm install --save-dev eslint-config-episerver
+npm install --save-dev @episerver/eslint-config
 ```
 
 ## Usage
 
-Once the `eslint-config-episerver` package is installed, you can use it by specifying `episerver` in the [`extends`](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) section of your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
+Once the `@episerver/eslint-config` package is installed, you can use it by specifying `@episerver` in the [`extends`](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) section of your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
 
 ```js
 {
-  "extends": "episerver",
+  "extends": "@episerver",
   "rules": {
     // Additional, per-project rules...
   }
@@ -33,11 +33,11 @@ Once the `eslint-config-episerver` package is installed, you can use it by speci
 
 There are several rules in the [`eslint:recommended` ruleset](http://eslint.org/docs/rules/) that the Episerver style is not opinionated about that you might want to enforce in your project.
 
-To use the Episerver style in conjunction with ESLint's recommended rule set, extend them both, making sure to list `episerver` last:
+To use the Episerver style in conjunction with ESLint's recommended rule set, extend them both, making sure to list `@episerver` last:
 
 ```js
 {
-  "extends": ["eslint:recommended", "episerver"],
+  "extends": ["eslint:recommended", "@episerver"],
   "rules": {
     // Additional, per-project rules...
   }
